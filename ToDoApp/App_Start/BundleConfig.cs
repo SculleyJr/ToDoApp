@@ -23,7 +23,7 @@ namespace ToDoApp
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/bootstrap-minimal.css",
                       "~/Content/site.css"));
         }
     }

@@ -25,6 +25,8 @@ namespace ToDoApp.Models
         {
         }
 
+        public DbSet<ToDo> Todos { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
